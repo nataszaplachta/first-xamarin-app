@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1.Data.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,13 @@ namespace App1
     {
         public MainPage()
         {
+
             InitializeComponent();
             lblMain.Text = "To jest text zmieniony po inicjalizacji";
             lblMain.TextColor = Color.Blue;
             lblMain.FontSize = 20;
+
+
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -53,7 +57,7 @@ namespace App1
 
         private async void urlEntry_Completed(object sender, EventArgs e)
         {
-            
+
             await Navigate();
         }
 
@@ -68,14 +72,40 @@ namespace App1
             var response = await DisplayAlert("Pytanie", "Czy masz skończone 18 lat, żeby wejść na stronę?", "TAK", "NIE");
             if (response)
             {
-                await Navigation.PushAsync(new GridPage());
+                Data.Properties.AppProperties["webUrl"] = url;
+                await Data.Properties.Save();
+                await Navigation.PushAsync(new HttpClientPage(url));
             }
             else
             {
                 await DisplayAlert("OK", "Wróć jak dorośniesz", "Ok");
             }
+        }
+            protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if (Data.Properties.AppProperties.ContainsKey("webUrl"))
+                lblUrl.Text = Data.Properties.AppProperties["webUrl"].ToString();
+        }
 
-           
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            var students = new List<Student>
+            {
+                new Student() {FirstName="Adam", LastName="Kowalski", ClassNumber=1, Birthday= new DateTime (1995,1,12)},
+                new Student() {FirstName="Marcin", LastName="Wesel", ClassNumber=3, Birthday= new DateTime (1989,5,19)},
+                new Student() {FirstName="Natalia", LastName="Nowak", ClassNumber=2, Birthday= new DateTime (1990,9,10)}
+            };
+            await App.LocalDB.InsertAll(students);
+            //foreach (var s in students) 
+            //await App.LocalDB.SaveItem(students);
+            var dbStudents = await App.LocalDB.GetItems<Student>();
+        }
+
+        private async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new StudentsPage());
         }
     }
 }
+

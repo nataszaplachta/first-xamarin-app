@@ -1,10 +1,10 @@
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\App1.Android.csprojAssemblyReference.cache
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\App1.Android.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\App1.Android.pdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\com.companyname.App1.apk
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\com.companyname.App1-Signed.apk
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\App1.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\App1.pdb
-C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\App1.Android.csprojAssemblyReference.cache
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\res.flag
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\App1.Android.csproj.CoreCompileInputs.cache
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\XamlC.stamp
@@ -99,9 +99,7 @@ C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\a
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\n.plachta\Source\Repos\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\linksrc\App1.Android.pdb
-C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\bin\Debug\App1.dll.mdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\linksrc\App1.dll.mdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

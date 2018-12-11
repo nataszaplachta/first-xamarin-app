@@ -7,11 +7,15 @@
     <StackLayout x:Name="sl">
         <Label x:Name="lblMain" Text="Welcome to Xamarin.Forms!"
            HorizontalOptions="Center" />
+        <Label x:Name="lblUrl" Text="Nie odwiedzono żadnej strony"/>
         <Entry x:Name="entryColor" Placeholder="Kolor dla przycisku" Completed="colorButton" TextChanged="entryColor_TextChanged"/>
         <Entry x:Name="urlEntry" Placeholder="Wpisz Url" Completed="urlEntry_Completed"/>
         <Button x:Name="btnColor" BackgroundColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" Text="Zmień kolor" Clicked="Button_Clicked"/>
         <Button BackgroundColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" Text="Nawiguj" Clicked="Button_Clicked_1" />
         <Button Text="Pokoloruj" Clicked="colorButton" />
+        <Button Text="Dodaj Studentów" Clicked="Button_Clicked_2"/>
+        <Button Text="Lista Studentów" Clicked="Button_Clicked_3"/>
+
     </StackLayout>
 
 </ContentPage>

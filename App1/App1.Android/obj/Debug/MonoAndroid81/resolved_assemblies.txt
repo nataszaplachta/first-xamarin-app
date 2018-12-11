@@ -4,6 +4,12 @@ C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\a
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLite-net.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.core.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
@@ -63,4 +69,6 @@ C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\a
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
+C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\System.Globalization.dll
 C:\Users\n.plachta\Source\Repos\App1\App1\App1.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

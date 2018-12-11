@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1.Data;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,10 +8,25 @@ namespace App1
 {
     public partial class App : Application
     {
+        private static LocalDatabase localDB;
+        public static LocalDatabase LocalDB
+        {
+            get
+            {
+                if (localDB == null)
+                {
+                    string path = string.Empty;
+                    var fileHelper = DependencyService.Get<IFileHelper>();
+                    path = fileHelper.GetFilePath("app.db3");
+                    localDB = new LocalDatabase(path);
+                }
+                return localDB;
+            }
+        }
+
         public App()
         {
             InitializeComponent();
-
             MainPage = new NavigationPage(new MainPage());
         }
 
